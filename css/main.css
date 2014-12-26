@@ -169,7 +169,7 @@ h2 {
     padding: 50px 0 25px;
     text-align: center;
     font-family: 'Lora', serif;
-    font-size: 50px;
+    font-size: 45px;
     color: white;
 }
 .hero p {
@@ -511,7 +511,7 @@ h2 {
     line-height: 45px;
     padding: 0 15px;
     color: #fff;
-    width: 75%;
+    width: 65%;
 }
 .footer-container .email_join button {
    height: 45px;
