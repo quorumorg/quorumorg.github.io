@@ -151,12 +151,6 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-hr {
-    width: 178px;
-    border-top-color: #3df1e2;
-    margin: 0 auto;
-    position: relative;
-}
 .header-container, header {
     background-color: #3b3e40;
 }
@@ -182,8 +176,58 @@ hr {
     color: #f0f0f0;
     font-size: 14px;
 }
+.hero hr {
+    width: 178px;
+    border-top-color: #3df1e2;
+    margin: 0 auto;
+    position: relative;
+}
 
-
+.intro {
+  background-color: #efefef;
+  padding: 35px;
+  font-size: 14px;
+}
+.intro h2 {
+  font-family: 'Lora', serif;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 28px;
+}
+.intro .examples {
+  background: #FFF;
+  padding: 1px 15px;
+  margin: 15px 0;
+}
+.intro .performance {
+  padding: 0 0 15px;
+  text-align: center;
+}
+.intro .openness {
+  padding: 15px 0 0;
+  text-align: center;
+}
+.intro .performance img {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  height: 108px;
+  padding-bottom: 15px;
+}
+.intro .openness img {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 105px;
+  padding-bottom: 15px;
+}
+.intro hr {
+  clear: both;
+  border-top-color: #ebebeb;
+}
 
 
 
@@ -274,6 +318,42 @@ hr {
         color: #f0f0f0;
         font-size: 14px;
     }
+
+
+.intro .examples {
+  padding: 40px;
+}
+.intro p {
+  width: 600px;
+  margin: 0 auto;
+}
+.intro .performance {
+  padding: 40px 0 60px;
+  text-align: left;
+}
+.intro .performance img {
+  clear: none;
+  display: block;
+  position: relative;
+  top: -15px;
+  float: left;
+  padding: 0 120px 0 0;
+}
+.intro .openness {
+  padding: 40px 0;
+  text-align: left;
+}
+.intro .openness img {
+  clear: none;
+  display: block;
+  position: relative;
+  float: right;
+  padding: 0px 0 20px 120px;
+}
+.intro hr {
+  width: 590px;
+  margin: 0 auto;
+}
 
 
 /* ============
