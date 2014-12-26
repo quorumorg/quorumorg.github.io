@@ -28,7 +28,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 10px 0 0;
     padding: 0;
 }
 
@@ -245,8 +245,12 @@ h2 {
     margin: 0 0 30px;
     color: white;
     font-size: 24px;
-    border-bottom: 1px solid #3df1e2;
     display: inline-block;
+}
+.mission hr {
+    width: 75px;
+    border-top-color: #3df1e2;
+    text-align: left;
 }
 .mission h3 {
     font-weight: 400;
@@ -264,8 +268,12 @@ h2 {
 }
 .team h2 {
     font-size: 24px;
-    border-bottom: 1px solid #3df1e2;
     display: inline-block;
+}
+.team h2 hr {
+    width: 75px;
+    border-top-color: #3df1e2;
+    text-align: left;
 }
 .team h3 {
     text-transform: uppercase;
@@ -313,6 +321,7 @@ h2 {
     width: 75px;
     border-top-color: #3df1e2;
     text-align: left;
+    margin: 1em 0;
 }
 
 .team .klaus {
@@ -369,12 +378,147 @@ h2 {
 }
 
 .strategies {
-    padding: 170px 0 50px;
+    color: #f0f0f0;
+    padding: 170px 0 80px;
     position: relative;
     top: -150px;
     background-color: #3b3e40;
 }
+.strategies h2 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 20px 0 0px;
+}
+.strategies hr {
+    width: 75px;
+    border-top-color: #3df1e2;
+    position: relative;
+    margin: 10px auto 0;
+}
+.strategy h4 {
+    margin: 20px 0 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.strategy p {
+    margin-top: 0;
+    font-size: 14px;
+}
 
+.nominate {
+    position: relative;
+    top: -80px;
+}
+.nominate h2 {
+    margin: 0;
+}
+.nominate p {
+    font-size: 18px;
+}
+.nominate hr {
+    width: 75px;
+    border-top-color: #3df1e2;
+}
+.nomination_form {
+    padding: 20px 0 0;
+}
+.nomination_form a {
+    background-color: #3b3e40;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+.nomination_form a img {
+    padding-left: 10px;
+    position: relative;
+    top: -2px;
+}
+.support {
+    text-align: center;
+    padding: 50px 0;
+    overflow: hidden;
+    background: #ebebeb;
+}
+.support p a.donate {
+    display: block;
+    background: #3df1e2;
+    width: 200px;
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+    color: #0d3330;
+    font-weight: 800;
+    text-decoration: none;
+    position: relative;
+    margin: 20px auto 0;
+}
+.support hr {
+    width: 75px;
+    border-top-color: #3df1e2;
+    margin: 10px auto 0;
+    position: relative;
+}
+.footer-container {
+    background-color: #3b3e40;
+    color: #eee;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 30px 0 0;
+}
+.footer-container h3 {
+    margin: 0;
+    font-family: 'Lora', serif;
+    color: #3ef0e2;
+}
+.footer-container .description {
+}
+.footer-container .email_join {
+}
+.footer-container .footer_links {
+    padding: 50px 0;
+    clear: both;
+    text-transform: uppercase;
+}
+.footer-container .footer_links a {
+    text-transform: none;
+    color: inherit;
+}
+.footer-container .footer_links {
+    padding: 50px 0;
+    clear: both;
+    text-transform: uppercase;
+}
+.footer-container .footer_links a {
+    text-transform: none;
+    color: inherit;
+}
+.footer-container .email_join {
+     padding: 20px 0 0;
+}
+.footer-container .email_join input {
+    background: #1f1f1f;
+    border: 1px solid #000;
+    border-right: 0;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    color: #fff;
+    width: 75%;
+}
+.footer-container .email_join button {
+   height: 45px;
+   width: 45px;
+   background: #3df1e2;
+   border: 0;
+}
 
 /* ==========================================================================
    Media Queries
@@ -408,6 +552,25 @@ h2 {
   float: left;
   width: 50%;
   height: 500px;
+}
+.footer-container {
+    background-color: #3b3e40;
+    color: #eee;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 30px 0 0;
+}
+.footer-container .description {
+    width: 40%;
+    float: left;
+}
+.footer-container .email_join {
+   width: 50%;
+   float: right;
+   padding: 0;
+}
+.footer-container .email_join input {
+    width: 60%;
 }
 
 
@@ -451,7 +614,7 @@ h2 {
     }
     .hero h2 {
         margin: 0;
-        padding: 150px 0 15px;
+        padding: 150px 0 20px;
         text-align: center;
         font-family: 'Lora', serif;
         font-size: 64px;
@@ -541,7 +704,35 @@ h2 {
 .team .advisor h4 {
     padding: 0 0 5px;
 }
-
+.strategies {
+    overflow: hidden;
+}
+.strategy {
+  padding: 25px 0 0;
+  text-align: center;
+  width: 29%;
+  float: left;
+  margin: 0 2.1%;
+}
+.strategy h4 {
+  padding-bottom: 15px;
+}
+.support {
+    text-align: left;
+}
+.support h2 {
+    float: left;
+}
+.support hr {
+    margin: 10px 0 0;
+}
+.support p {
+    float: right;
+    width: 50%;
+}
+.support p a.donate {
+    margin: 20px 0 0;
+}
 
 /* ============
     WIDE: Main
