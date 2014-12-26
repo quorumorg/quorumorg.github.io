@@ -478,22 +478,9 @@ h2 {
     font-family: 'Lora', serif;
     color: #3ef0e2;
 }
-.footer-container .description {
-}
-.footer-container .email_join {
-}
 .footer-container .footer_links {
     padding: 50px 0;
     clear: both;
-}
-.footer-container .footer_links a {
-    text-transform: none;
-    color: inherit;
-}
-.footer-container .footer_links {
-    padding: 50px 0;
-    clear: both;
-    text-transform: uppercase;
 }
 .footer-container .footer_links a {
     text-transform: none;
