@@ -485,7 +485,6 @@ h2 {
 .footer-container .footer_links {
     padding: 50px 0;
     clear: both;
-    text-transform: uppercase;
 }
 .footer-container .footer_links a {
     text-transform: none;
