@@ -71,58 +71,50 @@ body {
     margin: 0 5%;
 }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-.header-container {
-    border-bottom: 20px solid #e44d26;
-}
-
-.footer-container,
-.main aside {
-    border-top: 20px solid #e44d26;
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    background: #f16529;
-}
-
-.title {
-    color: white;
-}
-
 /* ==============
     MOBILE: Menu
    ============== */
 
+nav { display: none; }
+
+h1.title {
+    width: 140px;
+    height: 32px;
+    display: block;
+    background: url('/img/quorum_logo@2x.png') no-repeat center center;
+    background-size: 140px 32px;
+    margin: 40px 0 30px;
+    padding: 0;
+}
+h1.title span {
+    display: none;
+}
 nav ul {
     margin: 0;
     padding: 0;
 }
 
 nav a {
+    color: #f8f8f8;
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
-
+    font-size: 12px;
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #e44d26;
+    text-transform: uppercase;
+    font-weight: 500;
+    float: left;
 }
 
-nav a:hover,
 nav a:visited {
-    color: white;
+    color: #f8f8f8;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: #3df1e2;
+    text-decoration: none;
 }
 
 /* ==============
@@ -159,10 +151,9 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
+.header-container, header {
+    background-color: #3b3e40;
+}
 
 
 
@@ -184,11 +175,11 @@ nav a:hover {
    ==================== */
 
     nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
+        margin: 45px 0 0;
+        padding: 5px 20px;
         margin-bottom: 0;
+ 	display: inline-block;
+ 	border-right: 1px solid #4f4f4f;
     }
 
     nav li:first-child a {
@@ -197,6 +188,8 @@ nav a:hover {
 
     nav li:last-child a {
         margin-right: 0;
+	border-right: none;
+        padding-right: 0;
     }
 
 /* ========================
@@ -214,43 +207,30 @@ nav a:hover {
 
 @media only screen and (min-width: 768px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
-
 /* ============
     WIDE: Menu
    ============ */
 
+    nav {
+        clear: both;
+        float: left;
+	display: block;
+    }
     .title {
         float: left;
     }
-
     nav {
         float: right;
-        width: 38%;
+	width: auto;
+	clear: none;
     }
+
 
 /* ============
     WIDE: Main
    ============ */
 
-    .main article {
-        float: left;
-        width: 57%;
-    }
 
-    .main aside {
-        float: right;
-        width: 28%;
-    }
 }
 
 @media only screen and (min-width: 1140px) {
@@ -258,6 +238,8 @@ nav a:hover {
 /* ===============
     Maximal Width
    =============== */
+
+
 
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
