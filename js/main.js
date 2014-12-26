@@ -7,7 +7,7 @@ $( document ).ready(function() {
   });
   preload([
     '/img/cofounder_klaus_hover@2x.jpg',
-    '/img/cofounder_klaus_palumbo@2x.jpg',
+    '/img/cofounder_klaus_hover@2x.jpg',
     '/img/cofounder_sears_hover@2x.jpg',
     '/img/cofounder_spedale_hover@2x.jpg'
   ]);
