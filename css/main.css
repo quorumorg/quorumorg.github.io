@@ -75,11 +75,11 @@ body {
 nav { display: none; }
 
 h1.title {
-    width: 140px;
-    height: 32px;
+    width: 105px;
+    height: 24px;
     display: block;
     background: url('/img/quorum_logo@2x.png') no-repeat center center;
-    background-size: 140px 32px;
+    background-size: 105px 24px;
     margin: 40px auto 30px;
     float: none;
     padding: 0;
@@ -97,11 +97,12 @@ nav a {
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: .5px;
     float: left;
 }
 
@@ -196,14 +197,17 @@ h2 {
   font-size: 20px;
 }
 .intro h2 hr {
-  margin-top: 15px;
   width: 135px;
   border-top-color: #303637;
+  margin: 15px auto 0;
+  position: relative;
 }
 .intro .examples {
   background: #FFF;
   padding: 1px 15px;
   margin: 15px 0;
+  font-weight: 400;
+  font-size: 13px;
 }
 .intro .performance {
   padding: 0 0 15px;
@@ -256,7 +260,7 @@ h2 {
 }
 .mission h3 {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
     padding: 3px 0 15px;
 }
@@ -279,8 +283,8 @@ h2 {
 }
 .team h3 {
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 800;
 }
 .team h3.board {
     clear: both;
@@ -293,7 +297,9 @@ h2 {
 }
 .team .advisor p {
     margin-top: 0;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4em;
 }
 .team .cofounder {
   float: left;
@@ -380,7 +386,7 @@ h2 {
 }
 
 .strategies {
-    color: #f0f0f0;
+    color: #efefef;
     padding: 170px 0 80px;
     position: relative;
     top: -150px;
@@ -400,12 +406,13 @@ h2 {
 .strategy h4 {
     margin: 20px 0 0;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
 }
 .strategy p {
     margin-top: 0;
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 1.6em;
 }
 
 .nominate {
@@ -417,6 +424,8 @@ h2 {
 }
 .nominate p {
     font-size: 18px;
+    font-weight: 500;
+    max-width: 800px;
 }
 .nominate hr {
     width: 75px;
@@ -447,6 +456,10 @@ h2 {
     padding: 50px 0;
     overflow: hidden;
     background: #ebebeb;
+}
+.support p {
+    font-weight: 500;
+    font-size: 16px;
 }
 .support p a.donate {
     font-family: 'Lora', serif;
@@ -520,7 +533,7 @@ h2 {
 
     nav a {
         margin: 45px 0 0;
-        padding: 5px 20px;
+        padding: 5px 25px;
         margin-bottom: 0;
  	display: inline-block;
  	border-right: 1px solid #4f4f4f;
@@ -610,12 +623,12 @@ h2 {
     }
     .hero p {
         text-align: center;
-        width: 350px;
+        width: 400px;
         margin: 0 auto;
         padding: 30px 0 0;
         position: relative;
         color: #f0f0f0;
-        font-size: 14px;
+        font-size: 18px;
     }
 
 
@@ -649,11 +662,12 @@ h2 {
   float: right;
   padding: 0px 0 20px 100px;
 }
-.intro hr {
+.intro .examples hr {
   width: 550px;
   margin: 0 auto;
 }
 .intro h2 {
+  margin-top: 20px;
   font-size: 28px;
 }
 
