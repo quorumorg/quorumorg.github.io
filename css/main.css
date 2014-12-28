@@ -1,828 +1,769 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
+html,button,input,select,textarea {
+  color:#222;
 }
-
 html {
-    font-size: 1em;
-    line-height: 1.61;
+  font-size:1em;
+  line-height:1.61;
 }
-
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background:#b3d4fc;
+  text-shadow:none;
 }
-
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background:#b3d4fc;
+  text-shadow:none;
 }
-
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 10px 0 0;
-    padding: 0;
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #ccc;
+  margin:10px 0 0;
+  padding:0;
 }
-
-audio,
-canvas,
-img,
-video {
-    vertical-align: middle;
+audio,canvas,img,video {
+  vertical-align:middle;
 }
-
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border:0;
+  margin:0;
+  padding:0;
 }
-
 textarea {
-    resize: vertical;
+  resize:vertical;
 }
-
 .browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin:0.2em 0;
+  background:#ccc;
+  color:#000;
+  padding:0.2em 0;
 }
-
 body {
-    font: 16px/26px;
-    font-family: 'Open Sans', Helvetica, Helvetica Neue, Arial;
-    font-weight: 300;
-    color: #373a3e;
+  font:16px/26px;
+  font-family:'Open Sans',Helvetica,Helvetica Neue,Arial;
+  font-weight:300;
+  color:#373a3e;
 }
-
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
+  width:90%;
+  margin: 0 5%;
 }
 
-/* ==============
-    MOBILE: Menu
-   ============== */
+/* ============== MOBILE:Menu ============== */
 
-nav { display: none; }
-
+nav {
+  display:none;
+}
 h1.title {
-    width: 105px;
-    height: 24px;
-    display: block;
-    background: url('/img/quorum_logo@2x.png') no-repeat center center;
-    background-size: 105px 24px;
-    margin: 40px auto 30px;
-    float: none;
-    padding: 0;
+  width:105px;
+  height:24px;
+  display:block;
+  background:url('/img/quorum_logo@2x.png') no-repeat center center;
+  background-size:105px 24px;
+  margin:40px auto 30px;
+  float:none;
+  padding:0;
 }
 h1.title span {
-    display: none;
+  display:none;
 }
 nav ul {
-    margin: 0;
-    padding: 0;
+  margin:0;
+  padding:0;
 }
-
 nav a {
-    color: #f8f8f8;
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-    font-size: 10px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: .5px;
-    float: left;
+  color:#f8f8f8;
+  display:block;
+  margin-bottom:10px;
+  padding:15px 0;
+  font-size:10px;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:600;
+  letter-spacing:.5px;
+  float:left;
 }
-
 nav a:visited {
-    color: #f8f8f8;
+  color:#f8f8f8;
 }
-
 nav a:hover {
-    text-decoration: underline;
-    color: #3df1e2;
-    text-decoration: none;
+  text-decoration:underline;
+  color:#3df1e2;
+  text-decoration: none;
 }
 
-/* ==============
-    MOBILE: Main
-   ============== */
+/* ============== MOBILE:Main ============== */
 
 .main {
-    padding: 0;
+  padding:0;
 }
-
 .main article h1 {
-    font-size: 2em;
+  font-size:2em;
 }
-
 .main aside {
-    color: white;
-    padding: 0px 5% 10px;
+  color:white;
+  padding:0px 5% 10px;
 }
-
 .footer-container footer {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
-/* ===============
-    ALL: IE Fixes
-   =============== */
+/* =============== ALL:IE Fixes =============== */
 
 .ie7 .title {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-.header-container, header {
-    background-color: #3b3e40;
+.header-container,header {
+  background-color:#3b3e40;
 }
 h2 {
-    line-height: 1.3;
-    font-family: 'Lora', serif;
+  line-height:1.3;
+  font-family:'Lora',serif;
 }
 .hero {
-    background: url('/img/hero_bg.jpg') no-repeat center center;
-    background-size: cover;
-    height: 300px;
+  background:url('/img/hero_bg.jpg') no-repeat center center;
+  background-size:cover;
+  height:300px;
 }
 .hero h2 {
-    margin: 0;
-    padding: 50px 0 25px;
-    text-align: center;
-    font-family: 'Lora', serif;
-    font-size: 45px;
-    color: white;
+  margin:0;
+  padding:50px 0 25px;
+  text-align:center;
+  font-family:'Lora',serif;
+  font-size:45px;
+  color:white;
 }
 .hero p {
-    text-align: center;
-    width: 300px;
-    margin: 0 auto;
-    padding: 30px 0 0;
-    position: relative;
-    color: #f0f0f0;
-    font-size: 14px;
+  text-align:center;
+  width:300px;
+  margin:0 auto;
+  padding:30px 0 0;
+  position:relative;
+  color:#f0f0f0;
+  font-size:14px;
 }
 .hero hr {
-    width: 178px;
-    border-top-color: #3df1e2;
-    margin: 0 auto;
-    position: relative;
+  width:178px;
+  border-top-color:#3df1e2;
+  margin:0 auto;
+  position:relative;
 }
-
 .intro {
-  background-color: #efefef;
-  padding: 35px;
-  font-size: 14px;
+  background-color:#efefef;
+  padding:35px;
+  font-size:14px;
 }
 .intro h2 {
-  margin: 0;
-  padding: 0 0 20px;
-  text-align: center;
-  font-size: 20px;
+  margin:0;
+  padding:0 0 20px;
+  text-align:center;
+  font-size:20px;
 }
 .intro h2 hr {
-  width: 135px;
-  border-top-color: #303637;
-  margin: 15px auto 0;
-  position: relative;
+  width:135px;
+  border-top-color:#303637;
+  margin:15px auto 0;
+  position:relative;
 }
 .intro .examples {
-  background: #FFF;
-  padding: 1px 15px;
-  margin: 15px 0;
-  font-weight: 400;
-  font-size: 13px;
+  background:#FFF;
+  padding:1px 15px;
+  margin:15px 0;
+  font-weight:400;
+  font-size:13px;
 }
 .intro .performance {
-  padding: 0 0 15px;
-  text-align: center;
+  padding:0 0 15px;
+  text-align:center;
 }
 .intro .openness {
-  padding: 15px 0 0;
-  text-align: center;
+  padding:15px 0 0;
+  text-align:center;
 }
 .intro .performance img {
-  clear: both;
-  display: block;
-  margin: 0 auto;
-  width: 130px;
-  height: 108px;
-  padding-bottom: 15px;
+  clear:both;
+  display:block;
+  margin:0 auto;
+  width:130px;
+  height:108px;
+  padding-bottom:15px;
 }
 .intro .openness img {
-  clear: both;
-  display: block;
-  margin: 0 auto;
-  width: 160px;
-  height: 105px;
-  padding-bottom: 15px;
+  clear:both;
+  display:block;
+  margin:0 auto;
+  width:160px;
+  height:105px;
+  padding-bottom:15px;
 }
 .intro .examples hr {
-  clear: both;
-  border-top-color: #ebebeb;
+  clear:both;
+  border-top-color:#ebebeb;
 }
-
-
 .mission {
-    padding: 80px 40px;
-    color: #f0f0f0;
-    background: url('/img/mission_bg.jpg') no-repeat bottom center;
-    background-size: cover;
-    font-size: 14px;
+  padding:80px 40px;
+  color:#f0f0f0;
+  background:url('/img/mission_bg.jpg') no-repeat bottom center;
+  background-size:cover;
+  font-size:14px;
 }
 .mission h2 {
-    font-family: 'Lora', serif;
-    margin: 0 0 30px;
-    color: white;
-    font-size: 24px;
-    display: inline-block;
+  font-family:'Lora',serif;
+  margin:0 0 30px;
+  color:white;
+  font-size:24px;
+  display:inline-block;
 }
 .mission hr {
-    width: 75px;
-    border-top-color: #3df1e2;
-    text-align: left;
+  width:75px;
+  border-top-color:#3df1e2;
+  text-align:left;
 }
 .mission h3 {
-    font-weight: 400;
-    font-size: 20px;
-    margin: 0;
-    padding: 3px 0 15px;
+  font-weight:400;
+  font-size:20px;
+  margin:0;
+  padding:3px 0 15px;
 }
 .team .wrapper {
-    z-index: 2;
-    background: #fff;
-    position: relative;
-    padding: 40px 40px 20px;
-    width: auto;
-    overflow: hidden;
+  z-index:2;
+  background:#fff;
+  position:relative;
+  padding:40px 40px 20px;
+  width:auto;
+  overflow:hidden;
 }
 .team h2 {
-    font-size: 24px;
-    display: inline-block;
+  font-size:24px;
+  display:inline-block;
 }
 .team h2 hr {
-    width: 75px;
-    border-top-color: #3df1e2;
-    text-align: left;
+  width:75px;
+  border-top-color:#3df1e2;
+  text-align:left;
 }
 .team h3 {
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 800;
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:800;
 }
 .team h3.board {
-    clear: both;
-    padding: 60px 0 40px;
+  clear:both;
+  padding:60px 0 40px;
 }
 .team .advisor h4 {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lora', serif;
+  margin:0;
+  padding:0;
+  font-family:'Lora',serif;
 }
 .team .advisor p {
-    margin-top: 0;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.4em;
+  margin-top:0;
+  font-size:12px;
+  font-weight:400;
+  line-height:1.4em;
 }
 .team .cofounder {
-  float: left;
-  width: 100%;
-  height: 400px;
-  background: #f00;
-  color: white;
-  position: relative;
-
+  float:left;
+  width:100%;
+  height:400px;
+  background:#f00;
+  color:white;
+  position:relative;
 }
 .team .cofounder .content {
-  position: absolute;
-  bottom: 0;
-  padding: 20px;
+  position:absolute;
+  bottom:0;
+  padding:20px;
 }
 .team .cofounder h4 {
-  font-family: 'Lora', serif;
-  margin: 0;
+  font-family:'Lora',serif;
+  margin:0;
 }
 .team .cofounder p {
-  margin: 0;
-  line-height: 1.3em;
-  font-size: 13px;
-  font-weight: 500;
+  margin:0;
+  line-height:1.3em;
+  font-size:13px;
+  font-weight:500;
 }
 .team .cofounder hr {
-    width: 75px;
-    border-top-color: #3df1e2;
-    text-align: left;
-    margin: 1em 0;
+  width:75px;
+  border-top-color:#3df1e2;
+  text-align:left;
+  margin:1em 0;
 }
-
 .team .klaus {
-    background: url('/img/cofounder_klaus@2x.jpg') no-repeat center center;
-    background-size: cover;
-    -webkit-transition: background-image 0.1s ease-in;
-    -moz-transition: background-image 0.1s ease-in;
-    -ms-transition: background-image 0.1s ease-in;
-    -o-transition: background-image 0.1s ease-in;
-    transition: background-image 0.1s ease-in;
+  background:url('/img/cofounder_klaus@2x.jpg') no-repeat center center;
+  background-size:cover;
+  -webkit-transition:background-image 0.1s ease-in;
+  -moz-transition:background-image 0.1s ease-in;
+  -ms-transition:background-image 0.1s ease-in;
+  -o-transition:background-image 0.1s ease-in;
+  transition:background-image 0.1s ease-in;
 }
 .team .klaus:hover {
-    background: url('/img/cofounder_klaus_hover@2x.jpg') no-repeat center center;
-    background-size: cover;
+  background:url('/img/cofounder_klaus_hover@2x.jpg') no-repeat center center;
+  background-size:cover;
 }
 .team .palumbo {
-    background: url('/img/cofounder_palumbo@2x.jpg') no-repeat center center;
-    background-size: cover;
-    -webkit-transition: background-image 0.1s ease-in;
-    -moz-transition: background-image 0.1s ease-in;
-    -ms-transition: background-image 0.1s ease-in;
-    -o-transition: background-image 0.1s ease-in;
-    transition: background-image 0.1s ease-in;
+  background:url('/img/cofounder_palumbo@2x.jpg') no-repeat center center;
+  background-size:cover;
+  -webkit-transition:background-image 0.1s ease-in;
+  -moz-transition:background-image 0.1s ease-in;
+  -ms-transition:background-image 0.1s ease-in;
+  -o-transition:background-image 0.1s ease-in;
+  transition:background-image 0.1s ease-in;
 }
 .team .palumbo:hover {
-    background: url('/img/cofounder_palumbo_hover@2x.jpg') no-repeat center center;
-    background-size: cover;
+  background:url('/img/cofounder_palumbo_hover@2x.jpg') no-repeat center center;
+  background-size:cover;
 }
 .team .sears {
-    background: url('/img/cofounder_sears@2x.jpg') no-repeat center center;
-    background-size: cover;
-    -webkit-transition: background-image 0.1s ease-in;
-    -moz-transition: background-image 0.1s ease-in;
-    -ms-transition: background-image 0.1s ease-in;
-    -o-transition: background-image 0.1s ease-in;
-    transition: background-image 0.1s ease-in;
+  background:url('/img/cofounder_sears@2x.jpg') no-repeat center center;
+  background-size:cover;
+  -webkit-transition:background-image 0.1s ease-in;
+  -moz-transition:background-image 0.1s ease-in;
+  -ms-transition:background-image 0.1s ease-in;
+  -o-transition:background-image 0.1s ease-in;
+  transition:background-image 0.1s ease-in;
 }
 .team .sears:hover {
-    background: url('/img/cofounder_sears_hover@2x.jpg') no-repeat center center;
-    background-size: cover;
+  background:url('/img/cofounder_sears_hover@2x.jpg') no-repeat center center;
+  background-size:cover;
 }
 .team .spedale {
-    background: url('/img/cofounder_spedale@2x.jpg') no-repeat center center;
-    background-size: cover;
-    -webkit-transition: background-image 0.1s ease-in;
-    -moz-transition: background-image 0.1s ease-in;
-    -ms-transition: background-image 0.1s ease-in;
-    -o-transition: background-image 0.1s ease-in;
-    transition: background-image 0.1s ease-in;
+  background:url('/img/cofounder_spedale@2x.jpg') no-repeat center center;
+  background-size:cover;
+  -webkit-transition:background-image 0.1s ease-in;
+  -moz-transition:background-image 0.1s ease-in;
+  -ms-transition:background-image 0.1s ease-in;
+  -o-transition:background-image 0.1s ease-in;
+  transition:background-image 0.1s ease-in;
 }
 .team .spedale:hover {
-    background: url('/img/cofounder_spedale_hover@2x.jpg') no-repeat center center;
-    background-size: cover;
+  background:url('/img/cofounder_spedale_hover@2x.jpg') no-repeat center center;
+  background-size:cover;
 }
-
 .strategies {
-    color: #efefef;
-    padding: 170px 0 80px;
-    position: relative;
-    top: -150px;
-    background-color: #3b3e40;
+  color:#efefef;
+  padding:170px 0 80px;
+  position:relative;
+  top:-150px;
+  background-color:#3b3e40;
 }
 .strategies h2 {
-    font-family: 'Lora', serif;
-    text-align: center;
-    padding: 20px 0 0px;
+  font-family:'Lora',serif;
+  text-align:center;
+  padding:20px 0 0px;
 }
 .strategies hr {
-    width: 75px;
-    border-top-color: #3df1e2;
-    position: relative;
-    margin: 10px auto 0;
+  width:75px;
+  border-top-color:#3df1e2;
+  position:relative;
+  margin:10px auto 0;
 }
 .strategy h4 {
-    margin: 20px 0 0;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 14px;
+  margin:20px 0 0;
+  text-transform:uppercase;
+  font-weight:500;
+  font-size:14px;
 }
 .strategy p {
-    margin-top: 0;
-    font-size: 13px;
-    line-height: 1.6em;
+  margin-top:0;
+  font-size:13px;
+  line-height:1.6em;
 }
-
 .nominate {
-    position: relative;
-    top: -80px;
+  position:relative;
+  top:-80px;
 }
 .nominate h2 {
-    margin: 0;
+  margin:0;
 }
 .nominate p {
-    font-size: 18px;
-    font-weight: 500;
-    max-width: 800px;
+  font-size:18px;
+  font-weight:500;
+  max-width:800px;
 }
 .nominate hr {
-    width: 75px;
-    border-top-color: #3df1e2;
+  width:75px;
+  border-top-color:#3df1e2;
 }
 .nomination_form {
-    padding: 20px 0 0;
+  padding:20px 0 0;
 }
 .nomination_form a {
-    font-family: 'Lora', serif;
-    background-color: #3b3e40;
-    display: block;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-weight: 800;
-    cursor: pointer;
+  font-family:'Lora',serif;
+  background-color:#3b3e40;
+  display:block;
+  height:60px;
+  line-height:60px;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  font-weight:800;
+  cursor:pointer;
 }
 .nomination_form a img {
-    padding-left: 10px;
-    position: relative;
-    top: -2px;
+  padding-left:10px;
+  position:relative;
+  top:-2px;
 }
 .support {
-    text-align: center;
-    padding: 50px 0;
-    overflow: hidden;
-    background: #ebebeb;
+  text-align:center;
+  padding:50px 0;
+  overflow:hidden;
+  background:#ebebeb;
 }
 .support p {
-    font-weight: 500;
-    font-size: 16px;
+  font-weight:500;
+  font-size:16px;
 }
 .support p a.donate {
-    font-family: 'Lora', serif;
-    display: block;
-    background: #3df1e2;
-    width: 200px;
-    line-height: 70px;
-    height: 70px;
-    text-align: center;
-    color: #0d3330;
-    font-weight: 800;
-    text-decoration: none;
-    position: relative;
-    margin: 20px auto 0;
+  font-family:'Lora',serif;
+  display:block;
+  background:#3df1e2;
+  width:200px;
+  line-height:70px;
+  height:70px;
+  text-align:center;
+  color:#0d3330;
+  font-weight:800;
+  text-decoration:none;
+  position:relative;
+  margin:20px auto 0;
 }
 .support hr {
-    width: 75px;
-    border-top-color: #3df1e2;
-    margin: 10px auto 0;
-    position: relative;
+  width:75px;
+  border-top-color:#3df1e2;
+  margin:10px auto 0;
+  position:relative;
 }
 .footer-container {
-    background-color: #3b3e40;
-    color: #eee;
-    font-size: 12px;
-    font-weight: 500;
-    padding: 30px 0 0;
+  background-color:#3b3e40;
+  color:#eee;
+  font-size:12px;
+  font-weight:500;
+  padding:30px 0 0;
 }
 .footer-container h3 {
-    margin: 0;
-    font-family: 'Lora', serif;
-    color: #3ef0e2;
+  margin:0;
+  font-family:'Lora',serif;
+  color:#3ef0e2;
 }
 .footer-container .footer_links {
-    padding: 50px 0;
-    clear: both;
+  padding:50px 0;
+  clear:both;
 }
 .footer-container .footer_links a {
-    text-transform: none;
-    color: inherit;
+  text-transform:none;
+  color:inherit;
 }
 .footer-container .email_join {
-     padding: 20px 0 0;
+  padding:20px 0 0;
 }
 .footer-container .email_join input {
-    background: #1f1f1f;
-    border: 1px solid #000;
-    border-right: 0;
-    height: 45px;
-    line-height: 45px;
-    padding: 0 15px;
-    color: #fff;
-    width: 65%;
+  background:#1f1f1f;
+  border:1px solid #000;
+  border-right:0;
+  height:45px;
+  line-height:45px;
+  padding:0 15px;
+  color:#fff;
+  width:65%;
 }
 .footer-container .email_join button {
-   height: 45px;
-   width: 45px;
-   background: #3df1e2;
-   border: 0;
+  height:45px;
+  width:45px;
+  background:#3df1e2;
+  border: 0;
 }
 
-/* ==========================================================================
-   Media Queries
+/* ========================================================================== 
+   Media Queries 
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width:480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
+  /* ==================== INTERMEDIATE:Menu ==================== */
 
-    nav a {
-        margin: 45px 0 0;
-        padding: 5px 25px;
-        margin-bottom: 0;
- 	display: inline-block;
- 	border-right: 1px solid #4f4f4f;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-	border-right: none;
-        padding-right: 0;
-    }
-    .team .wrapper { padding: 40px 40px 20px; }
-.team .cofounder {
-  float: left;
-  width: 50%;
-  height: 360px;
-}
-.footer-container {
-    background-color: #3b3e40;
-    color: #eee;
-    font-size: 12px;
-    font-weight: 500;
-    padding: 30px 0 0;
-}
-.footer-container .description {
-    width: 40%;
-    float: left;
-}
-.footer-container .email_join {
-   width: 50%;
-   float: right;
-   padding: 0;
-}
-.footer-container .email_join input {
+  nav a {
+    margin:45px 0 0;
+    padding:5px 25px;
+    margin-bottom:0;
+    display:inline-block;
+    border-right:1px solid #4f4f4f;
+  }
+  nav li:first-child a {
+    margin-left:0;
+  }
+  nav li:last-child a {
+    margin-right:0;
+    border-right:none;
+    padding-right:0;
+  }
+  .team .wrapper {
+    padding:40px 40px 20px;
+  }
+  .team .cofounder {
+    float:left;
+    width:50%;
+    height:360px;
+  }
+  .footer-container {
+    background-color:#3b3e40;
+    color:#eee;
+    font-size:12px;
+    font-weight:500;
+    padding:30px 0 0;
+  }
+  .footer-container .description {
+    width:40%;
+    float:left;
+  }
+  .footer-container .email_join {
+    width:50%;
+    float:right;
+    padding:0;
+  }
+  .footer-container .email_join input {
     width: 60%;
+  }
+
+  /* ======================== INTERMEDIATE:IE Fixes ======================== */
+
+  nav ul li {
+    display:inline;
+  }
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
 }
 
+@media only screen and (min-width:768px) {
 
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
+  /* ============ WIDE ============ */
 
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-    h1.title {
-        float: left;
-        margin: 40px 0 30px;
-    }
-    nav {
-        clear: both;
-        float: left;
-	display: block;
-    }
-    nav {
-        float: right;
-	width: auto;
-	clear: none;
-    }
-    .hero {
-        background: url('/img/hero_bg.jpg') no-repeat center center;
-        background-size: cover;
-        height: 450px;
-    }
-    .hero h2 {
-        margin: 0;
-        padding: 120px 0 20px;
-        text-align: center;
-        font-family: 'Lora', serif;
-        font-size: 64px;
-        color: white;
-    }
-    .hero p {
-        text-align: center;
-        width: 400px;
-        margin: 0 auto;
-        padding: 30px 0 0;
-        position: relative;
-        color: #f0f0f0;
-        font-size: 18px;
-    }
-
-
-.intro .examples {
-  padding: 40px;
-}
-.intro p {
-  width: 550px;
-  margin: 0 auto;
-}
-.intro .performance {
-  padding: 40px 0 60px;
-  text-align: left;
-}
-.intro .performance img {
-  clear: none;
-  display: block;
-  position: relative;
-  top: -15px;
-  float: left;
-  padding: 0 100px 0 0;
-}
-.intro .openness {
-  padding: 40px 0;
-  text-align: left;
-}
-.intro .openness img {
-  clear: none;
-  display: block;
-  position: relative;
-  float: right;
-  padding: 0px 0 20px 100px;
-}
-.intro .examples hr {
-  width: 550px;
-  margin: 0 auto;
-}
-.intro h2 {
-  margin-top: 20px;
-  font-size: 28px;
-}
-
-.mission {
-  overflow: hidden;
-  padding: 150px 0;
-}
-.mission .wrapper {
-  width: 600px;
-  position: relative;
-  margin: 0 auto;
-}
-.mission h2 {
-  float: left;
-}
-.mission h3, .mission p {
-  float: right;
-  clear: right;
-  width: 400px;
-}
-.team {
-  overflow: hidden;
-}
-.team .wrapper { padding: 60px 50px 50px; }
-.team .cofounder {
-  float: left;
-  width: 25%;
-  height: 360px;
-}
-.team .advisor {
-  text-align: center;
-  float: left;
-  width: 22%;
-  padding-right: 3%;
-}
-.team .advisor h4 {
-    padding: 0 0 5px;
-}
-.strategies {
-    overflow: hidden;
-}
-.strategy {
-  padding: 25px 0 0;
-  text-align: center;
-  width: 29%;
-  float: left;
-  margin: 0 2.1%;
-}
-.strategy h4 {
-  padding-bottom: 15px;
-}
-.support {
-    text-align: left;
-}
-.support h2 {
-    float: left;
-}
-.support hr {
-    margin: 10px 0 0;
-}
-.support p {
-    float: right;
-    width: 50%;
-}
-.support p a.donate {
-    margin: 20px 0 0;
-}
-
-/* ============
-    WIDE: Main
-   ============ */
-
+  h1.title {
+    float:left;
+    margin:40px 0 30px;
+  }
+  nav {
+    clear:both;
+    float:left;
+    display:block;
+  }
+  nav {
+    float:right;
+    width:auto;
+    clear:none;
+  }
+  .hero {
+    background:url('/img/hero_bg.jpg') no-repeat center center;
+    background-size:cover;
+    height:450px;
+  }
+  .hero h2 {
+    margin:0;
+    padding:120px 0 20px;
+    text-align:center;
+    font-family:'Lora',serif;
+    font-size:64px;
+    color:white;
+  }
+  .hero p {
+    text-align:center;
+    width:400px;
+    margin:0 auto;
+    padding:30px 0 0;
+    position:relative;
+    color:#f0f0f0;
+    font-size:18px;
+  }
+  .intro .examples {
+    padding:40px;
+  }
+  .intro p {
+    width:550px;
+    margin:0 auto;
+  }
+  .intro .performance {
+    padding:40px 0 60px;
+    text-align:left;
+  }
+  .intro .performance img {
+    clear:none;
+    display:block;
+    position:relative;
+    top:-15px;
+    float:left;
+    padding:0 100px 0 0;
+  }
+  .intro .openness {
+    padding:40px 0;
+    text-align:left;
+  }
+  .intro .openness img {
+    clear:none;
+    display:block;
+    position:relative;
+    float:right;
+    padding:0px 0 20px 100px;
+  }
+  .intro .examples hr {
+    width:550px;
+    margin:0 auto;
+  }
+  .intro h2 {
+    margin-top:20px;
+    font-size:28px;
+  }
+  .mission {
+    overflow:hidden;
+    padding:150px 0;
+  }
+  .mission .wrapper {
+    width:600px;
+    position:relative;
+    margin:0 auto;
+  }
+  .mission h2 {
+    float:left;
+  }
+  .mission h3,.mission p {
+    float:right;
+    clear:right;
+    width:400px;
+  }
+  .team {
+    overflow:hidden;
+  }
+  .team .wrapper {
+    padding:60px 50px 50px;
+  }
+  .team .cofounder {
+    float:left;
+    width:25%;
+    height:360px;
+  }
+  .team .advisor {
+    text-align:center;
+    float:left;
+    width:22%;
+    padding-right:3%;
+  }
+  .team .advisor h4 {
+    padding:0 0 5px;
+  }
+  .strategies {
+    overflow:hidden;
+  }
+  .strategy {
+    padding:25px 0 0;
+    text-align:center;
+    width:29%;
+    float:left;
+    margin:0 2.1%;
+  }
+  .strategy h4 {
+    padding-bottom:15px;
+  }
+  .support {
+    text-align:left;
+  }
+  .support h2 {
+    float:left;
+  }
+  .support hr {
+    margin:10px 0 0;
+  }
+  .support p {
+    float:right;
+    width:50%;
+  }
+  .support p a.donate {
+    margin:20px 0 0;
+  }
 
 }
 
-@media only screen and (min-width: 1140px) {
+@media only screen and (min-width:1140px) {
 
-/* ===============
-    Maximal Width
-   =============== */
+  /* =============== Maximal Width =============== */
 
-    .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
-    }
-    .team .wrapper {
-        width: 860px;
-    }
-    .team .cofounder {
-      float: left;
-      width: 25%;
-      height: 360px;
-    }
+  .wrapper {
+    width:1026px;
+    /* 1140px - 10% for margins */
+    margin:0 auto;
+  }
+  .team .wrapper {
+    width:860px;
+  }
+  .team .cofounder {
+    float:left;
+    width:25%;
+    height: 360px;
+  }
+
 }
 
-/* ==========================================================================
+/* ========================================================================== 
    Helper classes
    ========================================================================== */
 
 .ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px;
+  background-color:transparent;
+  border:0;
+  overflow:hidden;
+  *text-indent:-9999px;
 }
-
 .ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
+  content:"";
+  display:block;
+  width:0;
+  height:150%;
 }
-
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display:none !important;
+  visibility:hidden;
 }
-
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border:0;
+  clip:rect(0 0 0 0);
+  height:1px;
+  margin:-1px;
+  overflow:hidden;
+  padding:0;
+  position:absolute;
+  width:1px;
 }
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+  clip:auto;
+  height:auto;
+  margin:0;
+  overflow:visible;
+  position:static;
+  width:auto;
 }
-
 .invisible {
-    visibility: hidden;
+  visibility:hidden;
 }
-
-.clearfix:before,
+.clearfix:before,.clearfix:after {
+  content:" ";
+  display:table;
+}
 .clearfix:after {
-    content: " ";
-    display: table;
+  clear:both;
 }
-
-.clearfix:after {
-    clear: both;
-}
-
 .clearfix {
-    *zoom: 1;
+  *zoom: 1;
 }
 
 /* ==========================================================================
@@ -830,64 +771,45 @@ h2 {
    ========================================================================== */
 
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  * {
+    background:transparent !important;
+    color:#000 !important;
+    box-shadow:none !important;
+    text-shadow:none !important;
+  }
+  a,a:visited {
+    text-decoration:underline;
+  }
+  a[href]:after {
+    content:" (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content:" (" attr(title) ")";
+  }
+  .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after {
+    content:"";
+  }
+  pre,blockquote {
+    border:1px solid #999;
+    page-break-inside:avoid;
+  }
+  thead {
+    display:table-header-group;
+  }
+  tr,img {
+    page-break-inside:avoid;
+  }
+  img {
+    max-width:100% !important;
+  }
+  @page {
+    margin:0.5cm;
+  }
+  p,h2,h3 {
+    orphans:3;
+    widows:3;
+  }
+  h2,h3 {
+    page-break-after: avoid;
+  }
 }
