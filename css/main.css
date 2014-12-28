@@ -530,7 +530,7 @@ h2 {
 .team .cofounder {
   float: left;
   width: 50%;
-  height: 500px;
+  height: 360px;
 }
 .footer-container {
     background-color: #3b3e40;
@@ -668,11 +668,11 @@ h2 {
 .team {
   overflow: hidden;
 }
-.team .wrapper { padding: 60px 60px 50px; }
+.team .wrapper { padding: 60px 50px 50px; }
 .team .cofounder {
   float: left;
   width: 25%;
-  height: 400px;
+  height: 360px;
 }
 .team .advisor {
   text-align: center;
@@ -731,12 +731,12 @@ h2 {
         margin: 0 auto;
     }
     .team .wrapper {
-        width: 1026px;
+        width: 860px;
     }
     .team .cofounder {
       float: left;
       width: 25%;
-      height: 500px;
+      height: 360px;
     }
 }
 
