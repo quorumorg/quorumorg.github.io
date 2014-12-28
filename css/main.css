@@ -589,13 +589,13 @@ h2 {
 	clear: none;
     }
     .hero {
-        background: url('/img/hero_bg.jpg') no-repeat;
+        background: url('/img/hero_bg.jpg') no-repeat center center;
         background-size: cover;
-        height: 550px;
+        height: 450px;
     }
     .hero h2 {
         margin: 0;
-        padding: 150px 0 20px;
+        padding: 120px 0 20px;
         text-align: center;
         font-family: 'Lora', serif;
         font-size: 64px;
