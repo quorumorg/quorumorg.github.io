@@ -419,6 +419,7 @@ h2 {
     padding: 20px 0 0;
 }
 .nomination_form a {
+    font-family: 'Lora', serif;
     background-color: #3b3e40;
     display: block;
     height: 60px;
@@ -441,6 +442,7 @@ h2 {
     background: #ebebeb;
 }
 .support p a.donate {
+    font-family: 'Lora', serif;
     display: block;
     background: #3df1e2;
     width: 200px;
