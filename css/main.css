@@ -354,7 +354,7 @@ h2 {
 .strategies {
   background-color: #3b3e40;
   color: #efefef;
-  padding: 50px 0 80px;
+  padding: 40px 40px 80px;
 }
 .strategies hr {
   border-top-color: #3df1e2;
@@ -387,7 +387,7 @@ h2 {
   padding: 0;
 }
 .nominate h2 {
-  padding: 70px 80px 0 80px;
+  padding: 70px 40px 0;
   margin: 0;
 }
 .nominate hr {
@@ -395,13 +395,13 @@ h2 {
   width: 75px;
 }
 .nominate p {
-  padding: 0 80px 20px 80px;
+  padding: 0 40px 20px;
   font-size: 18px;
   font-weight: 500;
   max-width: 800px;
 }
 .nominate ul {
-  padding: 0 40px 40px 100px;
+  padding: 0 20px 40px 60px;
 }
 .nomination_form {
   padding: 20px 0 0
@@ -533,6 +533,15 @@ h2 {
       float: left;
       height: 360px;
       width: 50%;
+    }
+    .nominate h2 {
+      padding: 70px 80px 0;
+    }
+    .nominate p {
+      padding: 0 80px 20px;
+    }
+    .nominate ul {
+      padding: 0 80px 40px 100px;
     }
     .footer-container {
       background-color: #3b3e40;
