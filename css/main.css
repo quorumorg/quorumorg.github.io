@@ -418,6 +418,9 @@ h2 {
   text-align: center;
   text-decoration: none;
 }
+.nomination_form a:hover {
+  background-color: #1f1f1f;
+}
 .nomination_form a img {
   padding-left: 10px;
   position: relative;
@@ -460,6 +463,9 @@ h2 {
   text-decoration: none;
   width: 200px;
 }
+.support p a.donate:hover {
+  background: #d7d7d7;
+}
 .footer-container {
   background-color: #3b3e40;
   color: #eee;
@@ -483,6 +489,10 @@ h2 {
   border: 0;
   height: 45px;
   width: 45px;
+  font-family: 'Lora',serif;
+}
+.footer-container .email_join button:hover {
+  background: #d7d7d7;
 }
 .footer-container .email_join input {
   background: #1f1f1f;
