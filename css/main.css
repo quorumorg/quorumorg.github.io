@@ -406,6 +406,58 @@ h2 {
 .nomination_form {
   padding: 20px 0 0
 }
+.nomination_form form {
+  display: none;
+  padding: 0 40px 20px;
+}
+.nomination_form form label {
+  display: block;
+  color: #373737;
+  font-size: 11px;
+}
+.nomination_form form input, .nomination_form form textarea {
+  background: #f8f8f8;
+  border: 1px solid #dedede;
+  color: #373737;
+  font: inherit;
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 3%;
+  width: 96%;
+}
+.nomination_form #nomination_thanks {
+  display: none;
+  font-family: 'Lora',serif;
+  padding-bottom: 120px;
+  text-align: center;
+}
+.nomination_form form input:focus, .nomination_form form textarea:focus {
+  outline: 2px solid #3ef0e2;
+}
+.nomination_form form_fields {
+   
+}
+.nomination_form form input#nominate-submit {
+  background: #3df1e2;
+  border: 0;
+  clear: both;
+  color: #0d3330;
+  display: block;
+  font-family: 'Lora',serif;
+  font-weight: 800;
+  height: 60px;
+  line-height: 60px;
+  margin: 40px auto 80px;
+  outline: none;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
+.support p a.donate:hover {
+  background: #d7d7d7;
+}
 .nomination_form a {
   background-color: #3b3e40;
   color: white;
@@ -425,6 +477,12 @@ h2 {
   padding-left: 10px;
   position: relative;
   top: -2px;
+}
+#join_thanks {
+  display: none;
+  font-family: 'Lora',serif;
+  font-size: 18px;
+  
 }
 .support {
   background: #ebebeb;
@@ -484,14 +542,18 @@ h2 {
 .footer-container .email_join {
   padding: 20px 0 0
 }
-.footer-container .email_join button {
+.footer-container .email_join #ss-submit {
   background: #3df1e2;
   border: 0;
-  height: 45px;
-  width: 45px;
+  color: #000;
+  display: inline-block;
   font-family: 'Lora',serif;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  width: 45px;
 }
-.footer-container .email_join button:hover {
+.footer-container .email_join #ss-submit:hover {
   background: #d7d7d7;
 }
 .footer-container .email_join input {
@@ -499,8 +561,10 @@ h2 {
   border: 1px solid #000;
   border-right: 0;
   color: #fff;
+  display: inline-block;
   height: 45px;
   line-height: 45px;
+  margin: 0;
   padding: 0 15px;
   width: 65%;
 }
@@ -730,6 +794,22 @@ h2 {
     }
     .support p a.donate {
       margin: 20px 0 0
+    }
+    .nomination_form {
+      padding: 20px 0 0
+    }
+    .nomination_form form {
+      padding: 0 80px 20px;
+    }
+    .nomination_form form label {
+      display: block;
+      float: left;
+      width: 40%;
+      padding: 0 4%;
+    }
+    .nomination_form form input, .nomination_form form textarea {
+      display: block;
+      width: 100%;
     }
 
 }
