@@ -12,12 +12,12 @@ $( document ).ready(function() {
     return false;
   });
 
-  $('#ss-submit').click(function() {
+  $('#ss-form').submit(function() {
     $('#ss-form').toggle();
     $('#join_thanks').toggle();
   });
 
-  $('#nominate-submit').click(function() {
+  $('#nomination_form').submit(function() {
     $('#nomination_form').toggle();
     $('#nomination_thanks').toggle();
   });
